@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   cursor: default;
+   scrollbar-width: thick;
+   scrollbar-color: var(--secondary-color) transparent;
+   @include vendor-prefix('box-sizing', 'border-box');
+   font-family: 'Cabin', sans-serif;
+   color: var(--color-black);
+   // outline: 1px solid limegreen !important;
+}
+
+html {
+   scroll-behavior: smooth;
+   -webkit-font-smoothing: antialiased;
+}
+
+body {
+   margin: 0 auto;
+}
+
+a {
+   text-decoration: none;
+}

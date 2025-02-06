@@ -1,0 +1,29 @@
+{
+   "name": "server",
+   "version": "1.0.0",
+   "description": "",
+   "main": "app.js",
+   "engines": {
+      "node": "16.x"
+   },
+   "scripts": {
+      "start": "node app.js",
+      "sass": "node-sass -w public/scss/ -o public/css/ --recursive --output-style=compressed",
+      "ts": "tsc --project ./ -w"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@popperjs/core": "^2.9.2",
+      "@types/socket.io": "^2.1.13",
+      "@types/socket.io-client": "^1.4.36",
+      "chalk": "^4.1.2",
+      "express": "^4.17.3",
+      "jquery": "^3.6.0",
+      "luxy.js": "^0.1.0",
+      "node-sass": "^7.0.1",
+      "smooth-scrollbar": "^8.7.5",
+      "socket.io": "^4.5.0"
+   }
+}

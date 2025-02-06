@@ -1,0 +1,113 @@
+i.ico {
+   display: inline-block;
+   width: 24px;
+   height: 24px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: contain;
+
+   &.pr-denied {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/denied/denied_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/denied/denied_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/denied/denied_512.png"));
+      }
+   }
+   &.pr-warning {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/warning/warning_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/warning/warning_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/warning/warning_512.png"));
+      }
+   }
+   &.pr-info {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/info/info_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/info/info_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/info/info_512.png"));
+      }
+   }
+   &.pr-poop {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/poop/poop_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/poop/poop_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/poop/poop_512.png"));
+      }
+   }
+   &.pr-medals-1st {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/medals/1st_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/medals/1st_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/medals/1st_512.png"));
+      }
+   }
+   &.pr-medals-2nd {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/medals/2nd_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/medals/2nd_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/medals/2nd_512.png"));
+      }
+   }
+   &.pr-medals-3nd {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/medals/3nd_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/medals/3nd_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/medals/3nd_512.png"));
+      }
+   }
+   &.pr-social-instagram {
+      &.s-64 {
+         background-image: url(("/medias/assets/icons/social/instagram_64.png"));
+      }
+
+      &.s-256 {
+         background-image: url(("/medias/assets/icons/social/instagram_256.png"));
+      }
+
+      &.s-512 {
+         background-image: url(("/medias/assets/icons/social/instagram_512.png"));
+      }
+   }
+}

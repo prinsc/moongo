@@ -1,0 +1,73 @@
+// couleur gradient des cartes
+.c-wood {
+   background-image: radial-gradient(#60862d, #89b17d);
+   // background-image: radial-gradient(#855630,#bd8c54);
+}
+
+.c-clay {
+   background-image: radial-gradient(#ca6141, #f88d85);
+}
+
+.c-sheep {
+   background-image: radial-gradient(#8fca41, #c2f5b2);
+}
+
+.c-wheat {
+   background-image: radial-gradient(#f7d050, #ffe46e);
+}
+
+.c-stone {
+   background-image: radial-gradient(#838383, #c7c7c7);
+}
+
+.c-dev {
+   background-image: radial-gradient(#4188ca, #9185f8);
+}
+
+
+
+// important 
+img {
+   &.ico {
+      width: 18px;
+   }
+
+   &.ico-large {
+      width: 35px;
+   }
+
+   aspect-ratio: 1/1;
+}
+
+// typo texte
+.t2 {
+   font-weight: bold;
+   margin: 15px 0;
+   margin-top: 0;
+   display: block;
+   width: 100%;
+   font-size: 1.1em;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   font-family: 'Rubik';
+}
+
+.t3 {
+   font-weight: bold;
+   margin: 15px 0;
+   margin-top: 0;
+   display: block;
+   width: 100%;
+   font-size: 1em;
+   text-transform: uppercase;
+   font-family: 'Rubik';
+}
+
+.t4 {
+   margin: 8px 0;
+   margin-top: 0;
+   display: block;
+   width: 100%;
+   font-size: 1em;
+   font-weight: bold;
+}

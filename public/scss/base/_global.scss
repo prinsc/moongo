@@ -1,0 +1,138 @@
+::-moz-selection {
+   /* Code for Firefox */
+   color: var(--primary-color);
+   background: var(--secondary-color);
+}
+
+::selection {
+   color: var(--primary-color);
+   background: var(--secondary-color);
+}
+
+*::-webkit-scrollbar {
+   width: 2px;
+   height: 2px;
+}
+
+*::-webkit-scrollbar-track {
+   background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+   opacity: .5;
+   background: var(--primary-color);
+   border-radius: 5px;
+   border: none;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+   background: var(--primary-color);
+}
+
+::placeholder {
+   opacity: .8;
+}
+
+h1 {
+   font-family: 'Rubik', cursive;
+}
+
+h2 {
+   font-family: 'Rubik', sans-serif;
+}
+
+h4 {
+   font-family: 'Rubik', sans-serif;
+}
+
+h5 {
+   font-family: 'Rubik', sans-serif;
+}
+
+a {
+   transition: all .2s ease;
+   color: var(--primary-color);
+   text-decoration: none;
+
+   &:hover {
+      color: var(--sprimary-color) !important;
+      text-decoration: none !important;
+      transition: all .2s ease;
+      @include vendor-prefix('cursor', 'pointer');
+   }
+}
+
+.hidden {
+   display: none !important;
+}
+
+.content {
+   @include vendor-prefix('display', 'flex');
+   align-items: center;
+
+   .row {
+      display: inherit;
+      flex-direction: row;
+      align-items: baseline;
+      height: 100%;
+
+      .col {
+         height: 100%;
+      }
+   }
+}
+
+ul {
+   list-style-type: none;
+}
+
+.d-none {
+   display: none !important;
+}
+
+.white-space {
+   white-space: nowrap;
+}
+
+.image {
+   background-repeat: no-repeat;
+   background-size: contain;
+   background-position: center center;
+}
+
+.max-height {
+   height: 100% !important;
+}
+
+b {
+   color: var(--color-dark);
+   font-weight: bold;
+   font-family: inherit;
+}
+
+/* END OF GLOBAL STYLE */
+
+/* ==========================================
+ANIMATION
+========================================== */
+@import "_animation";
+
+/* ==========================================
+VERSION PC
+========================================== */
+@import "screens/_desktop";
+
+
+/* ==========================================
+VERSION TABLETTE
+========================================== */
+@media screen and (max-width: $desktop) {
+   @import "screens/_tablette";
+}
+
+/* ==========================================
+VERSION MOBILE
+========================================== */
+@media screen and (max-width: $tablet-mid) {
+   @import "screens/_mobile";
+}
