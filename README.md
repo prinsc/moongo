@@ -2,6 +2,8 @@
 
 Moongo est un projet personnel né du constat qu'il n'existait pas de solution en ligne pour jouer à **Skyjo** en multijoueur. J'ai donc développé ce jeu, même si c'est un **vieux projet**, codé avec **jQuery** et utilisant **Socket.io**, une technologie que j'ai découverte au passage. Il permet de jouer jusqu'à **8 joueurs simultanément** et s'adapte à tous les écrans grâce à son **interface responsive**.
 
+[![Gameplay](https://i.postimg.cc/mD9wSqVc/Plan-de-travail-1.jpg)](https://www.youtube.com/watch?v=P8fxx-cT_UY)
+
 ## Fonctionnalités
 
 - Jeu basé sur les règles de **Skyjo**, avec une variante : ajout d'une carte "-4" pour plus de stratégie.
