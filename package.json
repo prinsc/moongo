@@ -1,5 +1,5 @@
 {
-   "name": "Moongo",
+   "name": "moongo",
    "version": "1.0.0",
    "description": "Jeux inspiré de Skyjo",
    "main": "app.js",
@@ -8,7 +8,7 @@
    },
    "scripts": {
       "start": "node app.js",
-      "sass": "node-sass -w public/scss/ -o public/css/ --recursive --output-style=compressed",
+      "sass": "node-sass -w public/scss/ -o public/css/ --recursive --output-style=compressed"
    },
    "keywords": [],
    "author": "",
@@ -20,9 +20,7 @@
       "chalk": "^4.1.2",
       "express": "^4.17.3",
       "jquery": "^3.6.0",
-      "luxy.js": "^0.1.0",
       "node-sass": "^7.0.1",
-      "smooth-scrollbar": "^8.7.5",
       "socket.io": "^4.5.0"
    }
 }
